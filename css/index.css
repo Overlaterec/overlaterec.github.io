@@ -31,7 +31,7 @@ body {
   bottom: 0;
   overflow: hidden;
   background: #151515;
-  z-index: 5000;
+  z-index: 10000;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,6 +68,7 @@ body {
   color: #fff;
   user-select: text;
   filter: drop-shadow(0px 1px 2px #222);
+  z-index: -1;
 }
 
 #vk {
@@ -77,10 +78,12 @@ body {
   transition: color .5s;
   user-select: text;
   filter: drop-shadow(0px 1px 2px #222);
+  z-index: -1;
 }
 
 #vk:hover {
   color: #fff;
+  z-index: -1;
 }
 
 #instagram {
@@ -90,10 +93,12 @@ body {
   transition: color .5s;
   user-select: text;
   filter: drop-shadow(0px 1px 2px #222);
+  z-index: -1;
 }
 
 #instagram:hover {
   color: #fff;
+  z-index: -1;
 }
 
 #youtube {
@@ -103,14 +108,17 @@ body {
   transition: color .5s;
   user-select: text;
   filter: drop-shadow(0px 1px 2px #222);
+  z-index: -1;
 }
 
 #youtube:hover {
   color: #fff;
+  z-index: -1;
 }
 
 .links {
   text-align: center;
+  z-index: -1;
 }
 
 @media screen and (max-width: 480px) {
@@ -247,7 +255,7 @@ footer {
   width: 26px;
   height: 26px;
   cursor: pointer;
-  z-index: 1;
+  z-index: 9999;
   filter: drop-shadow(0px 0px 5px #222);
 }
 
@@ -285,6 +293,7 @@ footer {
   background-color: #000;
   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
   transition-duration: .25s;
+  z-index: 9998;
 }
 
 .menu_item {

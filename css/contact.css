@@ -27,7 +27,7 @@ body {
   bottom: 0;
   overflow: hidden;
   background: #000;
-  z-index: 1001;
+  z-index: 10000;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -228,7 +228,7 @@ footer {
   width: 26px;
   height: 26px;
   cursor: pointer;
-  z-index: 1;
+  z-index: 9999;
 }
 
 .menu_btn > span,
@@ -265,6 +265,7 @@ footer {
   background-color: #000;
   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
   transition-duration: .25s;
+  z-index: 9998;
 }
 
 .menu_item {
