@@ -23,6 +23,13 @@ body {
   background-color: #213140;
 }
 
+.content {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .preloader {
   position: fixed;
   left: 0;
@@ -207,12 +214,6 @@ footer {
   opacity: .33;
   z-index: -1;
   filter: drop-shadow(0px 0px 2px #222);
-}
-
-.content {
-  margin-top: 13em;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #short_desc {

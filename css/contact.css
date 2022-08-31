@@ -70,8 +70,11 @@ body {
   margin-top: 2em;
 }
 
-.container-fluid {
-  margin-top: 12em;
+.content {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media screen and (max-width: 480px) {
